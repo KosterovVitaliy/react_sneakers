@@ -104,6 +104,8 @@ input {
 }
 
 .drawer {
+	display: flex;
+	flex-direction: column;
 	position: absolute;
 	width: 420px;
 	height: 100%;
@@ -113,6 +115,7 @@ input {
 	padding: 30px;
 
 	.items {
+		flex: 1;
 		overflow: auto;
 		margin-bottom: 40px;
 	}
