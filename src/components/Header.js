@@ -11,7 +11,7 @@ function Header() {
 			</div>
 			<ul className="d-flex">
 				<li className="mr-30">
-					<img width={18} height={18} src="/public/img/cart.svg" alt="cart" /><span>150$</span>
+					<img width={18} height={18} src={"/public/img/cart.svg"} alt="cart" /><span>150$</span>
 				</li>
 				<li>
 					<img width={18} height={18} src="/public/img/user.svg" alt="user" />
